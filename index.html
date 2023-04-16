@@ -6,30 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@600&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="container">
+        <div class="display">
+            <div class="expression">e</div>
+            <div class="result">r</div>
+        </div>
+        <div class="btns">
+            <button class="clear">C</button>
+            <button class="delete">%</button>
+            <button class="parantheses" value="(">(</button>
+            <button class="parantheses" value="(">)</button>
+            <button class="digits" id="" value="7">7</button>
+            <button class="digits" id="" value="8">8</button>
+            <button class="digits" id="" value="9">9</button>
+            <button class="operator" id="" value="/">/</button>
 
-    <button class="digits" id="" value="1">1</button>
-    <button class="digits" id="" value="2">2</button>
-    <button class="digits" id="" value="3">3</button>
-    <button class="digits" id="" value="4">4</button>
-    <button class="digits" id="" value="5">5</button>
-    <button class="digits" id="" value="6">6</button>
-    <button class="digits" id="" value="7">7</button>
-    <button class="digits" id="" value="8">8</button>
-    <button class="digits" id="" value="9">9</button>
-    <button class="digits" id="" value="0">0</button>
+            <button class="digits" id="" value="4">4</button>
+            <button class="digits" id="" value="5">5</button>
+            <button class="digits" id="" value="6">6</button>
+            <button class="operator" id="" value="*">x</button>
 
-    <button class="operator" id="" value="+">+</button>
-    <button class="operator" id="" value="-">-</button>
-    <button class="operator" id="" value="*">*</button>
-    <button class="operator" id="" value="/">/</button>
+            <button class="digits" id="" value="1">1</button>
+            <button class="digits" id="" value="2">2</button>
+            <button class="digits" id="" value="3">3</button>
+            <button class="operator" id="" value="-">-</button>
 
-    <button class="equalTo">=</button>
-    <button class="clear">clear</button>
+            <button class="digits" value=".">.</button>
+            <button class="digits" id="" value="0">0</button>
+            <button class="operator" id="" value="+">+</button>
+            <button class="equalTo">=</button>
 
-    <div class="display" style="border: 1px solid black; width: 70px; height: 25px; margin-top: 10px;"></div>
+
+        </div>
+    </div>
+    <!-- <div class="display" style="border: 1px solid black; width: auto; height: 25px; margin-top: 10px;"></div> -->
 
     <script src="app.js"></script>
 </body>
