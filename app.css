@@ -69,7 +69,11 @@ button{
     flex-direction: column;
     align-items: flex-end;
     padding: 20px 10px;
+    justify-content: space-between;
 }
-.display>div{
+/* .display>div{
     border: 1px solid white;
+} */
+.expression{
+    font-size: 20px;
 }
